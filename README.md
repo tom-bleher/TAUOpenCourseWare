@@ -3,9 +3,9 @@
 #### לינארית 1א:
 - [דוד גינסבורג (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%92%D7%99%D7%A0%D7%A1%D7%91%D7%95%D7%A8%D7%92%20%D7%94%D7%95%D7%99%D7%93%D7%90%D7%95%202019%22&sortColumn=0&sortAscending=true&maxResults=150)
 
-#### לינארית 2א:
-- [לאוניד פולטרוביץ (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%20%D7%A4%D7%95%D7%9C%D7%98%D7%A8%D7%95%D7%91%D7%99%D7%A5%22&sortColumn=0&sortAscending=true)
+#### לינארית 2א:]
 - [דוד גינסבורג (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111201%22&sortColumn=3&sortAscending=false)
+- [לאוניד פולטרוביץ (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%20%D7%A4%D7%95%D7%9C%D7%98%D7%A8%D7%95%D7%91%D7%99%D7%A5%22&sortColumn=0&sortAscending=true)
 
 #### חדו"א 2:
 - [שירי ארטשטיין (2010)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366110203%22&sortColumn=3&sortAscending=false)
@@ -78,10 +78,10 @@
 - [רנן ברקנא (2020)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%A8%D7%A0%D7%9F%20%D7%91%D7%A8%D7%A7%D7%A0%D7%90%200321213101%22&sortColumn=0&sortAscending=true)
 
 #### גלים אור ואופטיקה:
-- [בנימין סבטיצקי (2006)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210201%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A1%D7%91%D7%98%D7%99%D7%A6%D7%A7%D7%99%22&sortColumn=0&sortAscending=true&maxResults=150)
-- [דוד אנדלמן (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210201%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%90%D7%A0%D7%93%D7%9C%D7%9E%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150)
-- [רון ליפשיץ (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%226de4f56e-4829-466d-aceb-af5a00bf94a5%22&maxResults=150)
 - [רון ליפשיץ (2019)](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_wxFvu0sZ121Jrza8EnhACZ)
+- [רון ליפשיץ (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%226de4f56e-4829-466d-aceb-af5a00bf94a5%22&maxResults=150)
+- [דוד אנדלמן (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210201%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%90%D7%A0%D7%93%D7%9C%D7%9E%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150)
+- [בנימין סבטיצקי (2006)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210201%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A1%D7%91%D7%98%D7%99%D7%A6%D7%A7%D7%99%22&sortColumn=0&sortAscending=true&maxResults=150)
 
 #### קוונטים 1:
 - [בני רזניק (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210303%20%D7%93%5C%22%D7%A8%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%20%22&sortColumn=0&sortAscending=true)
