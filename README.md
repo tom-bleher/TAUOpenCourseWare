@@ -132,10 +132,10 @@
 - [אבנר סופר (2018)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%22%D7%90%D7%91%D7%A0%D7%A8%20%D7%A1%D7%95%D7%A4%D7%A8%200321484601%22&sortColumn=0&sortAscending=true&view=1)
 
 ## **מקורות נוספים**
-- [רשימות של האוניברסיטה העברית במתמטיקה](https://digmi.org/lecture-notes/)
 - [רשימות במתמטיקה ופיזיקה (אוקספורד)](https://courses.maths.ox.ac.uk/)
 - [רשימות במתמטיקה (קיימברידג')](https://dec41.user.srcf.net/notes/)
 - [רשימות בפיזיקה (קיימברידג')](https://www.damtp.cam.ac.uk/user/tong/teaching.html)
+- [רשימות של האוניברסיטה העברית במתמטיקה](https://digmi.org/lecture-notes/)
 - [אוסף מקורות במתמטיקה](https://realnotcomplex.com/)
 - [אוסף הרצאות בפיזיקה ומתמטיקה](https://github.com/Developer-Y/math-science-video-lectures?tab=readme-ov-file)
 
