@@ -84,9 +84,9 @@
 - [בנימין סבטיצקי (2006)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210201%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A1%D7%91%D7%98%D7%99%D7%A6%D7%A7%D7%99%22&sortColumn=0&sortAscending=true&maxResults=150)
 
 #### קוונטים 1:
-- [בני רזניק (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210303%20%D7%93%5C%22%D7%A8%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%20%22&sortColumn=0&sortAscending=true)
+- [רון ליפשיץ (2013)](https://www.youtube.com/watch?v=1dFg0xQHr24&list=PLZkJ6lmZSF_zSpVosoINUOfePANtAUK3E&index=1)
 - [רון ליפשיץ (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%220aab4ae2-534f-458a-8f4a-af5a00c05b52%22)
-- [רון ליפשיץ (יוטיוב)](https://www.youtube.com/watch?v=1dFg0xQHr24&list=PLZkJ6lmZSF_zSpVosoINUOfePANtAUK3E&index=1)
+- [בני רזניק (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210303%20%D7%93%5C%22%D7%A8%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%20%22&sortColumn=0&sortAscending=true)
 
 #### קוונטים 2:
 - [ערן סלע (2021) - זום](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22db04379c-07bc-416a-a76d-acc700b648bf%22)
