@@ -71,7 +71,7 @@
 - [רון ליפשיץ (2017)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%226f452543-f862-4d77-a3b3-b05100e671e2%22&maxResults=150)
 
 #### שיטות בפיזיקה עיונית 1:
-- [משה גולדשטיין (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321213001%20%D7%9E%D7%A9%D7%94%20%D7%92%D7%95%D7%9C%D7%93%D7%A9%D7%98%D7%99%D7%99%D7%9F%22&sortColumn=0&sortAscending=true)
+- [משה גולדשטיין (2019)](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_xrp3t3NDknuWwuh7kmiqPo)
 - [בני רזניק (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321213001%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%22&sortColumn=3&sortAscending=false)
 
 #### שיטות בפיזיקה עיונית 2:
