@@ -55,7 +55,6 @@
 ### ממפיס 2:
 - [רון ליפשיץ (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22a2ad3b9c-bb61-4401-9472-af5a00bd8f8b%22&maxResults=150)
 
-
 #### קלאסית 1:
 - [יורם דגן (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150)
 
@@ -82,6 +81,7 @@
 - [בנימין סבטיצקי (2006)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210201%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A1%D7%91%D7%98%D7%99%D7%A6%D7%A7%D7%99%22&sortColumn=0&sortAscending=true&maxResults=150)
 - [דוד אנדלמן (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210201%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%90%D7%A0%D7%93%D7%9C%D7%9E%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150)
 - [רון ליפשיץ (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%226de4f56e-4829-466d-aceb-af5a00bf94a5%22&maxResults=150)
+- [רון ליפשיץ (2019)](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_wxFvu0sZ121Jrza8EnhACZ)
 
 #### קוונטים 1:
 - [בני רזניק (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210303%20%D7%93%5C%22%D7%A8%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%20%22&sortColumn=0&sortAscending=true)
@@ -110,7 +110,7 @@
 - [דב פוזננסקי (2018)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310801-20172-14127%22&sortColumn=0&sortAscending=true)
 
 #### מבוא למצב מוצק:
-- [יורם דגן (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%20%22&sortColumn=0&sortAscending=true&maxResults=50)
+- [יורם דגן (2019)](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_yW83JSl7GJzHVRLZvyDMw-)
 
 ## **פיזיקה - תואר שני**
 
