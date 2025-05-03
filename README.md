@@ -128,7 +128,7 @@
 - [רשימות בפיזיקה ומתמטיקה (אוקספורד)](https://courses.maths.ox.ac.uk/)
 - [רשימות במתמטיקה (קיימברידג')](https://dec41.user.srcf.net/notes/)
 - [רשימות בפיזיקה (קיימברידג')](https://www.damtp.cam.ac.uk/user/tong/teaching.html)
-- [מקורות במתמטיקה](https://realnotcomplex.com/)
+- [אוסף מקורות במתמטיקה](https://realnotcomplex.com/)
 - [אוסף הרצאות בפיזיקה ומתמטיקה](https://github.com/Developer-Y/math-science-video-lectures?tab=readme-ov-file)
 
 ## **יצירת קשר**
