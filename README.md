@@ -1,4 +1,4 @@
-# **מתמטיקה - תואר ראשון**
+## **מתמטיקה - תואר ראשון**
 
 #### לינארית 1א:
 - [דוד גינסבורג (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%92%D7%99%D7%A0%D7%A1%D7%91%D7%95%D7%A8%D7%92%20%D7%94%D7%95%D7%99%D7%93%D7%90%D7%95%202019%22&sortColumn=0&sortAscending=true&maxResults=150)
@@ -50,7 +50,7 @@
 #### מבוא לקומבינטוריקה ותורת הגרפים:
 - [נוגה אלון (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112301%22&sortColumn=0&sortAscending=true&maxResults=150)
 
-# **פיזיקה - תואר ראשון**
+## **פיזיקה - תואר ראשון**
 
 #### קלאסית 1:
 - [יורם דגן (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150)
@@ -102,7 +102,7 @@
 #### מבוא למצב מוצק:
 - [יורם דגן (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%20%22&sortColumn=0&sortAscending=true&maxResults=50)
 
-# **פיזיקה - תואר שני**
+## **פיזיקה - תואר שני**
 
 #### יחסות כללית:
 - [ניסן יצחקי (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321402001%22&sortColumn=0&sortAscending=true&maxResults=150)
@@ -131,6 +131,6 @@
 - [מקורות במתמטיקה](https://realnotcomplex.com/)
 - [אוסף הרצאות בפיזיקה ומתמטיקה](https://github.com/Developer-Y/math-science-video-lectures?tab=readme-ov-file)
 
-# **יצירת קשר**
+## **יצירת קשר**
 - טום בלכר: tombleher@tauex.tau.ac.il
 - אילאי וישנבסקי שלוש: ilayw1@mail.tau.ac.il
