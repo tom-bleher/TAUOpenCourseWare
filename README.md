@@ -64,7 +64,7 @@
 - [רון ליפשיץ (2005)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b8cd19ea-51ef-4053-8f7a-af63006ca9b7%22&maxResults=150)
 
 #### תרמודינמיקה ומצבי צבירה:
-- [רון ליפשיץ (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%227a250640-a7f5-4ebe-809e-af5a00c1d3d1%22&maxResults=150)
+- [רון ליפשיץ (2019)](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_zPeVJl_0lrvfWUTtW9Ysr5)
 
 #### מכניקה אנליטית:
 - [מארק קרלינר (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%A4%D7%A8%D7%95%D7%A4%20%D7%9E%D7%90%D7%A8%D7%A7%20%D7%A7%D7%A8%D7%9C%D7%99%D7%A0%D7%A8%200321210501%22&sortColumn=0&sortAscending=true)
