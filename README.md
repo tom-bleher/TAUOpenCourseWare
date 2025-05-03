@@ -36,7 +36,7 @@
 - [דוד סודרי (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%A1%D7%95%D7%93%D7%A8%D7%99%22&sortColumn=0&sortAscending=true&maxResults=150)
 
 #### ממשיות:
-- [בועז קלרטג (2016) - חלקי](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366210604%22&sortColumn=0&sortAscending=true&view=1)
+- [בועז קלרטג (2016)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366210604%22&sortColumn=0&sortAscending=true&view=1)
 
 #### יסודות באלגברה קומוטטיבית:
 - [דוד סודרי (2017)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366329201%22&sortColumn=1&sortAscending=false)
