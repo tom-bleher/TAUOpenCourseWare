@@ -101,8 +101,8 @@
 
 #### מבוא לחלקיקים וגרעין:
 - [אבנר סופר (2017)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%22%D7%90%D7%91%D7%A0%D7%A8%20%D7%A1%D7%95%D7%A4%D7%A8%200321380401%22&sortColumn=3&sortAscending=false&view=1)
-- [אהרון לוי (2005)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321380401%20%D7%90%D7%94%D7%A8%D7%95%D7%9F%20%D7%9C%D7%95%D7%99%22&sortColumn=0&sortAscending=true&view=1)
 - [ארז עציון (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321380401%20%D7%90%D7%A8%D7%96%20%D7%A2%D7%A6%D7%99%D7%95%D7%9F%22&sortColumn=0&sortAscending=true&view=1)
+- [אהרון לוי (2005)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321380401%20%D7%90%D7%94%D7%A8%D7%95%D7%9F%20%D7%9C%D7%95%D7%99%22&sortColumn=0&sortAscending=true&view=1)
 
 #### מבוא לאסטרופיזיקה:
 - [דב פוזננסקי (2018)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310801-20172-14127%22&sortColumn=0&sortAscending=true)
