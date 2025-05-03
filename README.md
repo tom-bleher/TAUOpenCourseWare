@@ -160,12 +160,12 @@
 
 
 ## מקורות נוספים
-- [DeveloperY](https://github.com/Developer-Y/math-science-video-lectures?tab=readme-ov-file)
-- [Oxford math+physics](https://courses.maths.ox.ac.uk/)
-- [Cambridge math+physics](https://dec41.user.srcf.net/notes/)
-- [Realnotcomplex](https://realnotcomplex.com/)
-- [Hebrew University math notes](https://digmi.org/lecture-notes/)
-- [David Tong physics notes](https://www.damtp.cam.ac.uk/user/tong/teaching.html)
+- [רשימות של האוניברסיטה העברית](https://digmi.org/lecture-notes/)
+- [הרצאות בפיזיקה ומתמטיקה](https://github.com/Developer-Y/math-science-video-lectures?tab=readme-ov-file)
+- [רשימות בפיזיקה ומתמטיקה (אוקספורד)](https://courses.maths.ox.ac.uk/)
+- [רשימות במתמטיקה (קיימברידג')](https://dec41.user.srcf.net/notes/)
+- [מקורות במתמטיקה](https://realnotcomplex.com/)
+- [רשימות בפיזיקה (קיימברידג')](https://www.damtp.cam.ac.uk/user/tong/teaching.html)
 
 
 ## יצירת קשר
