@@ -72,7 +72,7 @@
 
 #### שיטות בפיזיקה עיונית 1:
 - [משה גולדשטיין (2019)](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_xrp3t3NDknuWwuh7kmiqPo)
-- [בני רזניק (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321213001%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%22&sortColumn=3&sortAscending=false)
+- [בני רזניק (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321213001%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%22&sortColumn=0&sortAscending=true)
 
 #### שיטות בפיזיקה עיונית 2:
 - [רנן ברקנא (2020)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%A8%D7%A0%D7%9F%20%D7%91%D7%A8%D7%A7%D7%A0%D7%90%200321213101%22&sortColumn=0&sortAscending=true)
