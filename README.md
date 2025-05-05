@@ -13,7 +13,7 @@
 
 #### חדו"א 2:
 - [שירי ארטשטיין (2010)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366110203%22&sortColumn=3&sortAscending=false)  
-  <sub>הבהרה: פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות מדובר במבוא לחשבון אינפיניטסימלי 3, ואילו בגרסה החדשה מדובר במבוא למרחבים מטריים.</sub>
+  <sub>פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש למבוא לחדו"א 3, ואילו בגרסה החדשה מדובר במבוא למרחבים מטריים.</sub>
 
 #### חדו"א 3:
 - [בועז קלרטג (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%95%D7%A2%D7%96%20%D7%A7%D7%9C%D7%A8%D7%98%D7%92%22&sortColumn=3&sortAscending=false&maxResults=50)
@@ -64,7 +64,7 @@
 - [יורם דגן (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150)
 
 #### קלאסית 2:
-- [יורם דגן (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321111901%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&view=1)
+- [יורם מהגרסהדגן (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321111901%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&view=1)
 - [דני מעוז (2010)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321111901%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%9F%20%D7%9E%D7%A2%D7%95%D7%96%22&sortColumn=0&sortAscending=true&view=1)
 - [רון ליפשיץ (2005)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b8cd19ea-51ef-4053-8f7a-af63006ca9b7%22&maxResults=150)
 
