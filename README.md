@@ -93,7 +93,7 @@
 - [בנימין סבטיצקי (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A1%D7%91%D7%98%D7%99%D7%A6%D7%A7%D7%99%22&sortColumn=0&sortAscending=true)
 
 #### מכניקה סטטיסטית:
-- [יורם דגן (2018)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321211101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=50)
+- [יורם דגן (2018)](https://www.youtube.com/playlist?list=PLNiWLB_wsOg5p-j1F_1LbRbkKWqLZQuSG)
 - [משה שוורץ (2010)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321411001%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%9E%D7%A9%D7%94%20%D7%A9%D7%95%D7%95%D7%A8%D7%A5%20%22&sortColumn=0&sortAscending=true&maxResults=150)
 
 #### אלקטרומגנטיות אנליטית:
