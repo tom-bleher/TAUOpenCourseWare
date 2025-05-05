@@ -20,7 +20,7 @@
 
 #### משוואות דיפרנציאליות רגילות:
 - [סטיבן שוחט (2016)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%A1%D7%98%D7%99%D7%91%D7%9F%20%D7%A9%D7%95%D7%97%D7%98%22&sortColumn=0&sortAscending=true&maxResults=50)
-- 
+
 #### מרוכבות:
 - [פאול בירן (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366212301%22&sortColumn=3&sortAscending=false)
 
