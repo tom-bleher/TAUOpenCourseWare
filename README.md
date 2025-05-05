@@ -59,6 +59,7 @@
 
 #### ממפיס 2:
 - [רון ליפשיץ (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22a2ad3b9c-bb61-4401-9472-af5a00bd8f8b%22&maxResults=150)
+<sub>פרק 2 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש לאלגברה לינארית, ואילו בגרסה העכשווית של הקורס פרק זה מוקדש למשוואות דיפרנציאליות. מידע נוסף בסילבוס הישן: <a href="https://www30.tau.ac.il/internetfiles/yedion/syllabus/03/2008/0321/0321183901_Memphis2%20Info%202009_syl.pdf" target="_blank">לצפייה</a>.</sub>
 
 #### קלאסית 1:
 - [יורם דגן (2011)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150)
