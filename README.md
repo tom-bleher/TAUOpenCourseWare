@@ -19,8 +19,7 @@
 - [בועז קלרטג (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%95%D7%A2%D7%96%20%D7%A7%D7%9C%D7%A8%D7%98%D7%92%22&sortColumn=3&sortAscending=false&maxResults=50)
 
 #### משוואות דיפרנציאליות רגילות:
-- [סטיבן שוחט (2016)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210301%22&sortColumn=3&sortAscending=false&page=0&maxResults=50)
-
+- [סטיבן שוחט (2016)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210301%22&sortColumn=0&sortAscending=true&maxResults=50)
 #### מרוכבות:
 - [פאול בירן (2009)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366212301%22&sortColumn=3&sortAscending=false)
 
