@@ -13,7 +13,7 @@
 
 #### חדו"א 2:
 - [שירי ארטשטיין (2010)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366110203%22&sortColumn=3&sortAscending=false)  
-  <sub>פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש למבוא לחדו"א 3, ואילו בגרסה החדשה מדובר במבוא למרחבים מטריים.</sub>
+  <sub>פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש למבוא לחדו"א 3, ואילו בגרסה העכשווית של הקורס פרק זה מוקדש למבוא למרחבים מטריים.</sub>
 
 #### חדו"א 3:
 - [בועז קלרטג (2019)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%95%D7%A2%D7%96%20%D7%A7%D7%9C%D7%A8%D7%98%D7%92%22&sortColumn=3&sortAscending=false&maxResults=50)
