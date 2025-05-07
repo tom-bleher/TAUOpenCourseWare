@@ -155,6 +155,9 @@
 - [אוסף מקורות במתמטיקה](https://realnotcomplex.com/)
 - [אוסף הרצאות בפיזיקה ומתמטיקה](https://github.com/Developer-Y/math-science-video-lectures?tab=readme-ov-file)
 
+## **כלים שימושיים**
+- [https://chromewebstore.google.com/detail/faster-panopto/lbehhpicfbglgijknhemcjcmencaajid?hl=en](פנופטו מהיר)
+
 ## **יצירת קשר**
 - טום בלכר: tombleher@tauex.tau.ac.il
 - אילאי וישנבסקי שלוש: ilayw1@mail.tau.ac.il
