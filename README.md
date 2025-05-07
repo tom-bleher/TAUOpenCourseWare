@@ -58,6 +58,10 @@
 #### גיאומטריה דיפרנציאלית:
 - [אלכסיי אנטין (2021)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fabba683-2e58-4f55-9b59-ac590117b749%22&view=2&page=0&maxResults=50)
 
+#### פונקציות L:
+- [אלכסיי אנטין (2021)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e57e9b94-82bc-4305-955b-ac5c00ff4395%22&view=2&maxResults=50)
+
+
 
 ## **פיזיקה - תואר ראשון**
 
