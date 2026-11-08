@@ -17,7 +17,7 @@
 | לינארית 1א | דוד גינסבורג | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%92%D7%99%D7%A0%D7%A1%D7%91%D7%95%D7%A8%D7%92%20%D7%94%D7%95%D7%99%D7%93%D7%90%D7%95%202019%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
 | לינארית 2א | דוד גינסבורג | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111201%22&sortColumn=3&sortAscending=false) | — | — |
 | לינארית 2א | לאוניד פולטרוביץ | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%20%D7%A4%D7%95%D7%9C%D7%98%D7%A8%D7%95%D7%91%D7%99%D7%A5%22&sortColumn=0&sortAscending=true) | — | — |
-| חדו"א 2 | שירי ארטשטיין | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366110203%22&sortColumn=0&sortAscending=true) | — | [הערה](#note-1-3) |
+| חדו"א 2 | שירי ארטשטיין | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366110203%22&sortColumn=0&sortAscending=true) | — | שימו לב: פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש למבוא לחדו"א 3, ואילו בגרסה העכשווית של הקורס פרק זה מוקדש למבוא למרחבים מטריים. |
 | חדו"א 3 | בועז קלרטג | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%95%D7%A2%D7%96%20%D7%A7%D7%9C%D7%A8%D7%98%D7%92%22&sortColumn=3&sortAscending=false&maxResults=50) | — | — |
 | משוואות דיפרנציאליות רגילות | סטיבן שוחט | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%A1%D7%98%D7%99%D7%91%D7%9F%20%D7%A9%D7%95%D7%97%D7%98%22&sortColumn=0&sortAscending=true&maxResults=50) | — | — |
 | מרוכבות | פאול בירן | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366212301%22&sortColumn=3&sortAscending=false) | — | — |
@@ -35,12 +35,6 @@
 | גיאומטריה דיפרנציאלית | אלכסיי אנטין | 2021 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fabba683-2e58-4f55-9b59-ac590117b749%22&view=2&page=0&maxResults=50) | — | — |
 | פונקציות L | אלכסיי אנטין | 2021 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e57e9b94-82bc-4305-955b-ac5c00ff4395%22&view=2&maxResults=50) | — | — |
 
-<a id="note-1-3"></a>
-
-**חדו"א 2 — שירי ארטשטיין (2010)**
-
-<sub>שימו לב: פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש למבוא לחדו"א 3, ואילו בגרסה העכשווית של הקורס פרק זה מוקדש למבוא למרחבים מטריים.</sub>
-
 
 <a id="group-2"></a>
 
@@ -48,7 +42,7 @@
 
 | קורס | מרצה | שנה | הקלטות | רשימות | הערות |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| ממפיס 2 | רון ליפשיץ | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22a2ad3b9c-bb61-4401-9472-af5a00bd8f8b%22&maxResults=150) | — | [הערה](#note-2-1) |
+| ממפיס 2 | רון ליפשיץ | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22a2ad3b9c-bb61-4401-9472-af5a00bd8f8b%22&maxResults=150) | — | שימו לב: פרק 2 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות הוא עוסק באלגברה לינארית, ואילו בגרסה העכשווית של הקורס הוא מוקדש למשוואות דיפרנציאליות. למידע נוסף ראו את <a href="https://www30.tau.ac.il/internetfiles/yedion/syllabus/03/2008/0321/0321183901_Memphis2%20Info%202009_syl.pdf" target="_blank">הסילבוס הישן</a>. |
 | ממפיס 1 | דני מעוז | 2021 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22d01afa60-374f-4dbe-8899-ac4e00a30559%22&view=1&maxResults=50) | — | — |
 | קלאסית 1 | יורם דגן | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
 | קלאסית 2 | יורם דגן | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321111901%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&view=1) | — | — |
@@ -76,12 +70,6 @@
 | מבוא לחלקיקים וגרעין | אהרון לוי | 2005 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321380401%20%D7%90%D7%94%D7%A8%D7%95%D7%9F%20%D7%9C%D7%95%D7%99%22&sortColumn=0&sortAscending=true&view=1) | — | — |
 | מבוא לאסטרופיזיקה | דב פוזננסקי | 2018 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310801-20172-14127%22&sortColumn=0&sortAscending=true) | — | — |
 | מבוא למצב מוצק | יורם דגן | 2019 | [צפייה](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_yW83JSl7GJzHVRLZvyDMw-) | — | — |
-
-<a id="note-2-1"></a>
-
-**ממפיס 2 — רון ליפשיץ (2009)**
-
-<sub>שימו לב: פרק 2 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות הוא עוסק באלגברה לינארית, ואילו בגרסה העכשווית של הקורס הוא מוקדש למשוואות דיפרנציאליות. למידע נוסף ראו את <a href="https://www30.tau.ac.il/internetfiles/yedion/syllabus/03/2008/0321/0321183901_Memphis2%20Info%202009_syl.pdf" target="_blank">הסילבוס הישן</a>.</sub>
 
 
 <a id="group-3"></a>
