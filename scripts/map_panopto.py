@@ -30,6 +30,8 @@ ROOT = "e68c3124-6817-4380-8492-ae9a00abb772"  # Open2019
 KEEP = "DeliveryID SessionName Abstract Duration FolderID FolderName".split()
 README = Path(__file__).resolve().parent.parent / "README.md"
 CACHE = README.with_name("panopto_sessions.jsonl")
+ALL_TIME = README.with_name("arazim_courses.json")
+ARAZIM_COURSES = "https://arazim-project.com/data/courses.json"
 
 # Single-major and master's programs, whose courses all belong in the mapping.
 BSC = 8366, 8371, 8359, 8650, 7606, 7605, 8360
@@ -267,11 +269,110 @@ def resolve(api, url):
     return {s["DeliveryID"] for s in api.sessions(folder, query)}
 
 
+def all_time_courses():
+    """Arazim's index of every course since 2000, cached; Coursesearch keeps only part of it."""
+    if not ALL_TIME.exists():
+        request = urllib.request.Request(ARAZIM_COURSES, headers={"User-Agent": "TAUOCW"})
+        with urllib.request.urlopen(request, timeout=120) as response:
+            ALL_TIME.write_bytes(response.read())
+    return json.loads(ALL_TIME.read_text())
+
+
+def set_record(code, semester, team, members, rivals):
+    """A recording set for the full list: who, when, how long and the search that finds it."""
+    display = {}
+    for session in members:
+        display.update(lecturers(session["Abstract"]))
+    people = [LECTURER_ALIASES.get(display[person], display[person]) for person in sorted(team)]
+    recitation = sum(bool(RECITATION.search(s["SessionName"] or "")) for s in members) * 2 > len(members)
+    # Subfolders hold copies, so a recording counts once.
+    recordings = {CODE.search(s["Abstract"])[0]: s.get("Duration") or 0 for s in members}
+    return {"who": ", ".join(people) or "—", "years": years_of(semester, members), "recitation": recitation,
+            "partial": len(recordings) < PARTIAL, "sessions": len(recordings), "hours": round(sum(recordings.values()) / 3600),
+            "query": f"{code} {semester}" + (f" {display[sorted(team)[0]]}" if rivals and team else ""), "group": code[8:]}
+
+
+def full_catalog(sessions, index):
+    """Every recording in the crawl as courses; uncoded sessions are returned separately."""
+    known = index["courses"]
+    all_time = all_time_courses()
+    faculty_of = {dept: faculty for faculty, depts in index["meta"]["faculties"].items() for dept in depts}
+    unit_dept = collections.defaultdict(collections.Counter)
+    for code, course in known.items():
+        unit_dept[code[:4]][course["dept"]] += 1
+    unit_past = collections.defaultdict(collections.Counter)
+    for code, course in all_time.items():
+        if "/" in course.get("faculty", ""):
+            unit_past[code[:4]][course["faculty"]] += 1
+
+    def describe(course):
+        past = all_time.get(course, {})
+        name = CATALOG_NAMES.get(course) or known.get(course, {}).get("name") or index["external"].get(course) or past.get("name", "")
+        name = " ".join(re.sub(rf"\s*-\s*{course}\s*$", "", name).split())
+        if course in known:
+            dept = known[course]["dept"]
+            faculty = faculty_of.get(dept)
+        elif "/" in past.get("faculty", ""):
+            faculty, dept = past["faculty"].split("/", 1)
+        elif unit_past[course[:4]]:  # a course nobody indexed sits with the rest of its unit
+            faculty, dept = unit_past[course[:4]].most_common(1)[0][0].split("/", 1)
+        else:
+            dept = unit_dept[course[:4]].most_common(1)[0][0] if unit_dept[course[:4]] else f"יחידה {course[:4]}"
+            faculty = faculty_of.get(dept)
+        last = max([known.get(course, {}).get("last") or "", *past.get("semesters", [])], default="")
+        return {"code": course, "name": name, "faculty": faculty or "לא מסווג", "dept": " ".join(dept.split()), "last": last,
+                "credits": known.get(course, {}).get("credits"), "indexed": course in known, "sets": []}
+
+    sets = group_sets(sessions)
+    courses = {}
+    for key, members in sets.items():
+        code, semester, team = key
+        rivals = [other for other in sets if other[:2] == key[:2] and other != key]
+        course = courses.setdefault(code[:8], describe(code[:8]))
+        course["sets"].append(set_record(code, semester, team, members, rivals))
+        if not course["name"]:
+            titles = dict.fromkeys(" ".join((s["SessionName"] or "").split()) for s in members)
+            course.setdefault("hint", []).extend(title for title in titles if title and title not in course.get("hint", []))
+    for course in courses.values():
+        course["sets"].sort(key=lambda s: (s["recitation"], -int(s["years"][-4:])))
+        if "hint" in course:
+            course["hint"] = course["hint"][:4]
+    loose = [{"folder": " ".join((s["FolderName"] or "—").split()), "title": " ".join((s["SessionName"] or "—").split()), "id": s["DeliveryID"]}
+             for s in sessions if not CODE.search(s["Abstract"] or "")]
+    return sorted(courses.values(), key=lambda c: (c["faculty"], c["dept"], c["code"])), sorted(loose, key=lambda s: (s["folder"], s["title"]))
+
+
+def write_all(path, sessions, index):
+    """Write the full list as Markdown and, beside it, JSON for the site; the README is not touched."""
+    courses, loose = full_catalog(sessions, index)
+    Path(path).with_suffix(".json").write_text(json.dumps(
+        {"courses": courses, "loose": loose, "latest": index["meta"]["latest_year"], "built": index["meta"]["generated"]}, ensure_ascii=False))
+    lines = ['<div dir="rtl" align="right">', "", "# כל הקורסים הפתוחים", ""]
+    faculty = dept = None
+    for course in courses:
+        if course["faculty"] != faculty:
+            faculty, dept = course["faculty"], None
+            lines += [f"## {faculty}", ""]
+        if course["dept"] != dept:
+            dept = course["dept"]
+            lines += [f"### {dept}", "", "| מספר | קורס | מרצה | שנה | הקלטות | שעות | צפייה | הערות |", "| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
+        for item in course["sets"]:
+            notes = ", ".join(note for note, on in (("תרגול", item["recitation"]), ("חלקי", item["partial"])) if on) or "—"
+            lines.append(f"| {course['code']}{item['group']} | {course['name'] or '—'} | {item['who']} | {item['years']} | {item['sessions']} | {item['hours']} | [צפייה]({link(item['query'])}) | {notes} |")
+    lines += ["", "## הקלטות ללא מספר קורס", "", "| תיקייה | הקלטה | צפייה |", "| ---: | ---: | ---: |"]
+    for session in loose:
+        lines.append(f"| {session['folder'].replace('|', '/')} | {session['title'].replace('|', '/')} | [צפייה]({HOST}/Pages/Viewer.aspx?id={session['id']}) |")
+    Path(path).write_text("\n".join([*lines, "", "</div>", ""]))
+    named = sum(bool(course["name"]) for course in courses)
+    print(f"{path}: {len(courses)} courses ({named} named), {sum(len(c['sets']) for c in courses)} sets, {len(loose)} uncoded sessions")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("cookies")
     parser.add_argument("coursesearch", type=Path)
     parser.add_argument("--dry-run", action="store_true", help="report without writing the README")
+    parser.add_argument("--all", metavar="FILE", help="write every recording to FILE instead of updating the README")
     args = parser.parse_args()
     api = Panopto(args.cookies)
 
@@ -280,6 +381,8 @@ def main():
     sessions = [json.loads(line) for line in CACHE.read_text().splitlines()]
 
     index = json.loads((args.coursesearch / "data/index.json").read_text())
+    if args.all:
+        return write_all(args.all, sessions, index)
     names = {**index["external"], **{code: course["name"] for code, course in index["courses"].items()}, **CATALOG_NAMES}
     bsc, msc = program_courses(args.coursesearch, BSC), program_courses(args.coursesearch, MSC)
     sets = {key: members for key, members in group_sets(sessions).items()

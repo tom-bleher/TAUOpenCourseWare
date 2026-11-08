@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TAUOCW</title>
+<meta name="description" content="חיפוש בהקלטות הקורסים הפתוחות של אוניברסיטת תל אביב">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a catalog drawer. Search stays within reach; each course is one ruled entry whose recordings read as a short ledger. */
+:root {
+  --bg: #f1f5f4; --surface: #ffffff; --ink: #14272b; --muted: #566a6e; --line: #d3dedd;
+  --accent: #0b6a70; --accent-soft: #d9ecec; --accent-ink: #ffffff; --tag: #80530f; --tag-soft: #f5ead6; --mark: #0b6a70;
+  --display: "Frank Ruhl Libre", "David Libre", Georgia, serif;
+  --body: "Assistant", "Segoe UI", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1b1e; --surface: #16262a; --ink: #e4eeee; --muted: #9db1b4; --line: #2a3f43;
+  --accent: #5cc4c8; --accent-soft: #1b3a3e; --accent-ink: #08201f; --tag: #e6b566; --tag-soft: #3a2f1b; --mark: #5cc4c8; color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0f1b1e; --surface: #16262a; --ink: #e4eeee; --muted: #9db1b4; --line: #2a3f43;
+  --accent: #5cc4c8; --accent-soft: #1b3a3e; --accent-ink: #08201f; --tag: #e6b566; --tag-soft: #3a2f1b; --mark: #5cc4c8; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { padding-top: env(safe-area-inset-top, 0px); -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+.wrap { max-width: 960px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { padding-block: 28px 16px; }
+h1 { margin: 0; font: 700 clamp(30px, 6vw, 42px)/1.1 var(--display); }
+.lede { margin: 8px 0 0; color: var(--muted); max-width: 66ch; }
+.search { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-block: 1px solid var(--line); padding-block: 10px; }
+.search .wrap { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; }
+#q { grid-column: 1 / -1; width: 100%; font-size: 17px; }
+input[type=search], select { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 9px 12px; min-width: 0; }
+#count { color: var(--muted); font-size: 15px; font-variant-numeric: tabular-nums; }
+#reset { font: 600 15px var(--body); color: var(--accent); background: none; border: 0; padding: 2px 4px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding-block: 12px 4px; }
+.filters select { flex: 1 1 170px; }
+.checks { display: flex; flex-wrap: wrap; gap: 4px 16px; padding-block: 2px 4px; }
+label.check { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+main { padding-block: 4px 40px; }
+.course { padding-block: 18px; border-bottom: 1px solid var(--line); }
+.course h2 { margin: 0; font: 500 21px/1.3 var(--display); text-wrap: balance; }
+.course h2.unnamed { font-style: italic; color: var(--muted); }
+.meta { display: flex; flex-wrap: wrap; gap: 2px 12px; margin-top: 2px; color: var(--muted); font-size: 14px; }
+.meta a { color: inherit; text-underline-offset: 3px; }
+.num { font: 400 13px var(--mono); direction: ltr; unicode-bidi: isolate; }
+.hint { margin: 4px 0 0; color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+ul.sets { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 2px; }
+.set { display: grid; grid-template-columns: 6.5em minmax(0, 1fr) auto; gap: 2px 12px; align-items: baseline; padding: 5px 8px; border-radius: 6px; }
+.set:hover { background: var(--accent-soft); }
+.year { font-variant-numeric: tabular-nums; font-weight: 600; }
+.who { min-width: 0; overflow-wrap: anywhere; }
+.size { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; margin-inline-start: 8px; white-space: nowrap; }
+.note { display: block; color: var(--muted); font-size: 14px; }
+.note a { color: inherit; }
+.tag { display: inline-block; margin-inline-start: 6px; padding: 0 7px; border-radius: 4px; font-size: 13px; background: var(--tag-soft); color: var(--tag); }
+.links { display: flex; gap: 12px; white-space: nowrap; }
+a.watch { color: var(--accent); font-weight: 600; text-underline-offset: 3px; }
+#sentinel { height: 1px; }
+#more { display: block; margin: 22px auto 0; font: 600 16px var(--body); color: var(--accent-ink); background: var(--accent); border: 0; border-radius: 6px; padding: 10px 22px; cursor: pointer; }
+#empty { padding-block: 48px; color: var(--muted); text-align: center; }
+details { margin-top: 32px; }
+summary { cursor: pointer; font: 500 19px var(--display); }
+.loose { list-style: none; margin: 10px 0 0; padding: 0; }
+.loose li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 5px 8px; border-bottom: 1px solid var(--line); }
+.loose small { display: block; color: var(--muted); overflow-wrap: anywhere; }
+footer { border-top: 1px solid var(--line); padding-block: 18px 32px; color: var(--muted); font-size: 14px; }
+footer a { color: inherit; text-underline-offset: 3px; }
+@media (max-width: 620px) {
+  .set { grid-template-columns: minmax(0, 1fr) auto; }
+  .set .year { grid-column: 1 / -1; }
+  .size { display: block; margin-inline-start: 0; }
+}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <h1>TAUOCW</h1>
+  <p class="lede" id="lede"></p>
+</header>
+<div class="search">
+  <div class="wrap">
+    <input type="search" id="q" placeholder="חיפוש לפי שם קורס, מספר או מרצה" aria-label="חיפוש" autocomplete="off">
+    <div id="count" role="status"></div>
+    <button id="reset" type="button" hidden>ניקוי</button>
+  </div>
+</div>
+<div class="wrap">
+  <div class="filters">
+    <select id="faculty" aria-label="פקולטה"></select>
+    <select id="dept" aria-label="חוג"></select>
+    <select id="sort" aria-label="מיון">
+      <option value="">מיון לפי חוג ומספר קורס</option>
+      <option value="new">ההקלטה החדשה ביותר</option>
+      <option value="long">הכי הרבה שעות</option>
+    </select>
+  </div>
+  <div class="checks">
+    <label class="check"><input type="checkbox" id="current"> רק קורסים שעדיין ניתנים</label>
+    <label class="check"><input type="checkbox" id="lectures"> בלי תרגולים</label>
+    <label class="check"><input type="checkbox" id="whole"> בלי הקלטות חלקיות</label>
+  </div>
+</div>
+<main class="wrap">
+  <div id="list"></div>
+  <div id="empty" hidden>לא נמצאו קורסים. נסו מילה אחרת או נקו את המסננים.</div>
+  <div id="sentinel"></div>
+  <button id="more" type="button" hidden>הצגת קורסים נוספים</button>
+  <details id="looseBox">
+    <summary id="looseTitle"></summary>
+    <ul class="loose" id="loose"></ul>
+  </details>
+</main>
+<footer class="wrap">
+  אתר לא רשמי של <a href="https://github.com/tom-bleher/TAUOpenCourseWare">TAUOCW</a>. נתוני הקורסים: <a href="https://tom-bleher.github.io/Coursesearch/">Coursesearch</a> ו־<a href="https://arazim-project.com/">Arazim Project</a>. הסילבוס העדכני עשוי להיות שונה מזה של שנת ההקלטה, ושם המרצה והשנה נלקחו מנתוני Panopto.
+</footer>
+
+<script>
+const DATA = /*DATA*/null;
+const HOST = "https://tau.cloud.panopto.eu/Panopto";
+const ROOT = "e68c3124-6817-4380-8492-ae9a00abb772";
+const PAGE = 50;
+const FIRST = ["מדעים מדויקים"], LAST = ["אחר", "לא מסווג"];
+const $ = id => document.getElementById(id);
+const normalize = text => text.toLowerCase().replace(/["'׳״`.,()]/g, "").replace(/[-־]/g, "").replace(/ם/g, "מ").replace(/ן/g, "נ").replace(/ץ/g, "צ").replace(/ף/g, "פ").replace(/ך/g, "כ").replace(/\s+/g, " ");
+const el = (tag, cls, text) => { const node = document.createElement(tag); if (cls) node.className = cls; if (text != null) node.textContent = text; return node; };
+const out = (text, href, cls = "watch") => { const a = el("a", cls, text); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; };
+const setLink = query => `${HOST}/Pages/Sessions/List.aspx#folderID=%22${ROOT}%22&query=%22${encodeURIComponent(query)}%22&sortColumn=0&sortAscending=true&maxResults=250`;
+const plural = (n, one, many) => n === 1 ? one : `${n.toLocaleString("he-IL")} ${many}`;
+const rank = name => FIRST.includes(name) ? 0 : LAST.includes(name) ? 2 : 1;
+const byFaculty = (a, b) => rank(a) - rank(b) || a.localeCompare(b, "he");
+const lastYear = course => parseInt(course.last) || 0;
+const newest = set => Math.max(...set.years.match(/\d{4}/g).map(Number));
+
+for (const course of DATA.courses) {
+  course.text = normalize([course.code, course.name, course.dept, ...(course.aliases || []), ...(course.hint || []), ...course.sets.map(set => set.who)].join(" "));
+  course.title = ` ${normalize([course.name, ...(course.aliases || [])].join(" "))} `;
+  course.current = lastYear(course) >= DATA.latest - 1;
+}
+DATA.courses.sort((a, b) => byFaculty(a.faculty, b.faculty) || a.dept.localeCompare(b.dept, "he") || a.code.localeCompare(b.code));
+for (const item of DATA.loose) item.text = normalize(`${item.folder} ${item.title}`);
+
+const tally = (list, key, value) => list.filter(course => course[key] === value).length;
+const fill = (select, all, options) => {
+  const value = select.value;
+  select.replaceChildren(new Option(all, ""), ...options.map(([name, n]) => new Option(`${name} (${n})`, name)));
+  select.value = options.some(([name]) => name === value) ? value : "";
+};
+fill($("faculty"), "כל הפקולטות", [...new Set(DATA.courses.map(c => c.faculty))].sort(byFaculty).map(name => [name, tally(DATA.courses, "faculty", name)]));
+function fillDepts() {
+  const scope = DATA.courses.filter(c => !$("faculty").value || c.faculty === $("faculty").value);
+  fill($("dept"), "כל החוגים", [...new Set(scope.map(c => c.dept))].sort((a, b) => a.localeCompare(b, "he")).map(name => [name, tally(scope, "dept", name)]));
+}
+fillDepts();
+const allSets = DATA.courses.reduce((n, c) => n + c.sets.length, 0);
+const allHours = DATA.courses.reduce((n, c) => n + c.sets.reduce((h, s) => h + (s.hours || 0), 0), 0);
+$("lede").textContent = `${DATA.courses.length.toLocaleString("he-IL")} קורסים, ${allSets.toLocaleString("he-IL")} סדרות הקלטה ובערך ${allHours.toLocaleString("he-IL")} שעות מתיקיית Open2019 ב־Panopto, בתוספת הקישורים מהמאגר שלנו. לצפייה ב־Panopto צריך להתחבר עם חשבון של אוניברסיטת תל אביב.`;
+
+const selects = ["faculty", "dept", "sort"], checks = ["current", "lectures", "whole"];
+function loadState() {
+  const state = new URLSearchParams(location.hash.slice(1));
+  $("q").value = state.get("q") || "";
+  $("faculty").value = state.get("faculty") || "";
+  fillDepts();
+  $("dept").value = state.get("dept") || "";
+  $("sort").value = state.get("sort") || "";
+  for (const id of checks) $(id).checked = state.get(id) === "1";
+}
+function saveState() {
+  const state = new URLSearchParams();
+  if ($("q").value.trim()) state.set("q", $("q").value.trim());
+  for (const id of selects) if ($(id).value) state.set(id, $(id).value);
+  for (const id of checks) if ($(id).checked) state.set(id, "1");
+  const hash = state.toString();
+  history.replaceState(null, "", hash ? `#${hash}` : location.pathname + location.search);
+  $("reset").hidden = !hash;
+}
+
+const visibleSets = course => course.sets.filter(set => (!$("lectures").checked || !set.recitation) && (!$("whole").checked || !set.partial));
+const academicYear = semester => { const year = parseInt(semester); return `${year - 1}/${String(year).slice(2)}`; };
+
+function setRow(set) {
+  const row = el("li", "set");
+  const who = el("span", "who", set.who);
+  for (const [on, label] of [[set.recitation, "תרגול"], [set.mixed, "כולל תרגולים"], [set.partial, "חלקי"], [set.zoom, "זום"]]) if (on) who.append(el("span", "tag", label));
+  if (set.sessions) who.append(el("span", "size", `${plural(set.sessions, "הקלטה אחת", "הקלטות")} · ${plural(set.hours, "שעה", "שעות")}`));
+  if (set.note) {
+    const note = el("span", "note", set.note + " ");
+    if (set.noteUrl) note.append(out("הסילבוס הישן", set.noteUrl, ""));
+    who.append(note);
+  }
+  const links = el("span", "links");
+  if (set.query || set.href) links.append(out("צפייה", set.href || setLink(set.query)));
+  if (set.youtube) links.append(out("YouTube", set.youtube));
+  if (set.pdf) links.append(out("רשימות", set.pdf));
+  row.append(el("span", "year", set.years), who, links);
+  return row;
+}
+
+function card(course, sets) {
+  const box = el("article", "course");
+  box.append(el("h2", course.name ? null : "unnamed", course.name || "קורס ללא שם בקטלוג"));
+  const meta = el("div", "meta");
+  meta.append(el("span", "num", course.code), el("span", null, course.dept));
+  if (course.aliases) meta.append(el("span", null, `נקרא גם: ${course.aliases.join(", ")}`));
+  if (course.credits) meta.append(el("span", null, `${course.credits} נק"ז`));
+  if (course.last && !course.current) meta.append(el("span", null, `ניתן לאחרונה ב־${academicYear(course.last)}`));
+  if (course.indexed) meta.append(out("Coursesearch", `https://tom-bleher.github.io/Coursesearch/#course=${course.code}`, ""));
+  box.append(meta);
+  if (course.hint) box.append(el("p", "hint", `כותרות ההקלטות: ${course.hint.join(" · ")}`));
+  const list = el("ul", "sets");
+  list.append(...sets.map(setRow));
+  box.append(list);
+  return box;
+}
+
+// A short number means "Calculus 3", so it must be a whole word in the name, not digits inside a course number.
+const matchesTerm = (course, term) => /^\d{1,3}$/.test(term) ? course.title.includes(` ${term} `) : course.text.includes(term);
+
+let matches = [], drawn = 0;
+function drawMore() {
+  const next = matches.slice(drawn, drawn + PAGE);
+  $("list").append(...next.map(([course, sets]) => card(course, sets)));
+  drawn += next.length;
+  $("more").hidden = drawn >= matches.length;
+}
+function apply() {
+  const terms = normalize($("q").value).trim().split(" ").filter(Boolean);
+  matches = [];
+  for (const course of DATA.courses) {
+    if ($("faculty").value && course.faculty !== $("faculty").value) continue;
+    if ($("dept").value && course.dept !== $("dept").value) continue;
+    if ($("current").checked && !course.current) continue;
+    if (!terms.every(term => matchesTerm(course, term))) continue;
+    const sets = visibleSets(course);
+    if (sets.length) matches.push([course, sets]);
+  }
+  if ($("sort").value === "new") matches.sort((a, b) => Math.max(...b[1].map(newest)) - Math.max(...a[1].map(newest)));
+  if ($("sort").value === "long") matches.sort((a, b) => b[1].reduce((h, s) => h + (s.hours || 0), 0) - a[1].reduce((h, s) => h + (s.hours || 0), 0));
+  const total = matches.reduce((n, [, sets]) => n + sets.length, 0);
+  $("count").textContent = `${plural(matches.length, "קורס אחד", "קורסים")}, ${plural(total, "סדרת הקלטה אחת", "סדרות הקלטה")}`;
+  $("list").replaceChildren();
+  drawn = 0;
+  drawMore();
+  $("empty").hidden = matches.length > 0;
+  const loose = DATA.loose.filter(item => terms.every(term => item.text.includes(term)));
+  $("looseTitle").textContent = `הקלטות ללא מספר קורס (${loose.length})`;
+  $("loose").replaceChildren(...loose.map(item => {
+    const row = el("li");
+    const text = el("span", null, item.title);
+    text.append(el("small", null, item.folder));
+    row.append(text, out("צפייה", `${HOST}/Pages/Viewer.aspx?id=${item.id}`));
+    return row;
+  }));
+  $("looseBox").hidden = !loose.length;
+  saveState();
+}
+
+$("q").addEventListener("input", apply);
+$("faculty").addEventListener("change", () => { fillDepts(); apply(); });
+for (const id of ["dept", "sort", ...checks]) $(id).addEventListener("change", apply);
+$("more").addEventListener("click", drawMore);
+$("reset").addEventListener("click", () => {
+  $("q").value = "";
+  for (const id of selects) $(id).value = "";
+  for (const id of checks) $(id).checked = false;
+  fillDepts();
+  apply();
+  $("q").focus();
+});
+addEventListener("hashchange", () => { loadState(); apply(); });
+addEventListener("keydown", event => {
+  if (event.key === "/" && !/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) { event.preventDefault(); $("q").focus(); }
+});
+if ("IntersectionObserver" in window) {
+  new IntersectionObserver(entries => { if (entries[0].isIntersecting && drawn < matches.length) drawMore(); }, { rootMargin: "600px" }).observe($("sentinel"));
+}
+loadState();
+apply();
+</script>
+</body>
+</html>
