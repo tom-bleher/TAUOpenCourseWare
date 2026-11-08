@@ -160,7 +160,7 @@
 - [אוסף הרצאות בפיזיקה ומתמטיקה](https://github.com/Developer-Y/math-science-video-lectures?tab=readme-ov-file)
 
 ## **כלים שימושיים**
-- [פנופטו מהיר](https://chromewebstore.google.com/detail/faster-panopto/lbehhpicfbglgijknhemcjcmencaajid?hl=en)
+- [התקנת LyX בעברית](https://github.com/tom-bleher/lyx-he)
 - [עץ התואר](https://tom-bleher.github.io/Coursesearch/course_graph.html)
 ## **יצירת קשר**
 - טום בלכר: tombleher@tauex.tau.ac.il
