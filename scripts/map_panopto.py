@@ -4,7 +4,8 @@
 Sessions carry a code in their abstract: 0321183601-20122-9227 is course 03211836,
 group 01, academic year 2012, semester 2. A recording set is one course, group,
 semester and lecturer. Rows already in the README are kept as they are; only sets
-they don't cover are added, so it is safe to rerun.
+they don't cover are added, and every table is rebuilt in the order the catalog
+teaches its courses, so it is safe to rerun.
 
     python3 scripts/map_panopto.py COOKIES.txt ../Coursesearch [--dry-run]
 
@@ -39,11 +40,33 @@ PARTIAL = 8
 
 # README courses with no Open2019 session to infer the course number from.
 COURSE_OF_ROW = {
+    "ממפיס 1": "03211838",
+    "פיזיקה סטטיסטית": "03212111",
     "תרמודינמיקה ומצבי צבירה": "03211104",
     "מבוא למצב מוצק": "03213103",
     "גיאומטריה דיפרנציאלית": "03662219",
     "תורת שדות לחומר מעובה": "03214285",
 }
+# Names the Coursesearch index lacks or gives in English, from the faculty's past catalogs:
+# https://exact-sciences.tau.ac.il/yedion_past_years
+CATALOG_NAMES = {
+    "03211121": "מחשבים לפיזיקאים",
+    "03212117": "שיטות נומריות בפיזיקה",
+    "03213113": "מצב מוצק ב'",
+    "03662105": "אנליזה נומרית",
+    "03662132": "תורת החבורות",
+    "03682161": "פרויקט תוכנה",
+    "03211804": "מבוא לפיזיקה מודרנית",
+    "03212830": "אלקטרוניקה",
+    "03213153": "מבוא לפיזיקה חישובית",
+    "03214116": "פיזיקה קוונטית 2",
+    "03214117": "אלקטרומגנטיות מתקדמת",
+    "03214860": "גלאי קרינה לאנרגיות גבוהות",
+    "03664480": "תהליכים אקראיים ויישומיהם 1",
+    "03664553": "שיטות במתמטיקה שימושית 1",
+}
+# One spelling per lecturer; abstracts vary.
+LECTURER_ALIASES = {"דוד גינזבורג": "דוד גינסבורג", "מרק קרלינר": "מארק קרלינר", "צבי מזאה": 'צבי מז"אה', "גלית אשכנזי": "גלית אשכנזי גולן"}
 
 SECTIONS = {
     "math_bsc": "מתמטיקה - תואר ראשון",
@@ -52,6 +75,16 @@ SECTIONS = {
     "math_msc": "מתמטיקה - תואר שני",
     "other": "קורסים נוספים בתוכניות מתמטיקה",
 }
+# The programs that order each section, the first that places a course winning.
+# The integrated program places second- and third-year math the math catalog leaves unordered.
+ORDER = {
+    "math_bsc": (7606, 8371, 7605, 8359, 8360, 8650),
+    "physics_bsc": (8366, 8371),
+    "physics_msc": (1712,),
+    "math_msc": (2238, 1890),
+    "other": (8650, 8360, 8359, 7605, 1890, 2238, 1712),
+}
+ELECTIVES, ELSEWHERE = "קורסי בחירה", "קורסים שאינם בתוכנית הנוכחית"
 HEADER = ["| קורס | מרצה | שנה | הקלטות | רשימות | הערות |", "| ---: | ---: | ---: | ---: | ---: | ---: |"]
 CODE = re.compile(r"(?<!\d)(\d{10})-(\d{5})-\d+(?!\d)")
 DATE = re.compile(r"\d{4}-\d\d-\d\d")
@@ -161,6 +194,52 @@ def section_of(course, bsc, msc):
     return f"{subject}_{'msc' if graduate else 'bsc'}"
 
 
+def placements(coursesearch, section):
+    """Where the catalog teaches each course of a section: {course: (rank, heading, position)}."""
+    places = {}
+    for order, program in enumerate(ORDER[section]):
+        categories = json.loads((coursesearch / "data/programs" / f"{program}.json").read_text())["categories"]
+        for number, category in enumerate(categories):
+            semester, year = category.get("sem"), category.get("year")
+            if semester and (category.get("required") or not year):
+                term = (year - 1) * 2 + semester if year else semester
+                place = term, f"סמסטר {term}"
+            elif category.get("required"):
+                place = 90, "שנים ב'-ג' - חובה"
+            else:
+                place = 91, ELECTIVES
+            for index, course in enumerate(category["courses"]):
+                candidate = (*place, order, number, index)
+                # A semester from any program beats an unordered slot from an earlier one.
+                if course not in places or candidate[0] < places[course][0] and places[course][0] >= 90:
+                    places[course] = candidate
+    return places
+
+
+def rebuild(lines, records, coursesearch):
+    """README with its tables in catalog order; records are (section, course, cells)."""
+    start = next(i for i, line in enumerate(lines) if line.startswith('<a id="group-'))
+    end = next(i for i, line in enumerate(lines) if line.startswith("## **"))
+    body = []
+    for group, (section, title) in enumerate(SECTIONS.items(), 1):
+        places = placements(coursesearch, section)
+        tables = collections.defaultdict(list)
+        for key, course, cells in records:
+            if key == section:
+                place = places.get(course, (99, ELSEWHERE))
+                recitation = "תרגול" in cells[5]
+                year = max(map(int, re.findall(r"\d{4}", cells[2])))
+                tables[place[:2]].append((place[2:] or (course or "",), course or "", recitation, -year, cells))
+        body += [f'<a id="group-{group}"></a>', "", f"## {title}", ""]
+        for (_, heading), rows in sorted(tables.items()):
+            body += [f"### {heading}", "", *HEADER]
+            for row in sorted(rows, key=lambda row: row[:4]):
+                body.append(f"| {' | '.join(row[4])} |")
+            body.append("")
+        body.append("")
+    return [*lines[:start], *body, *lines[end:]]
+
+
 def link(query):
     return (f"{HOST}/Pages/Sessions/List.aspx#folderID=%22{ROOT}%22&query=%22{urllib.parse.quote(query)}%22"
             "&sortColumn=0&sortAscending=true&maxResults=250")
@@ -200,7 +279,7 @@ def main():
     sessions = [json.loads(line) for line in CACHE.read_text().splitlines()]
 
     index = json.loads((args.coursesearch / "data/index.json").read_text())
-    names = {**index["external"], **{code: course["name"] for code, course in index["courses"].items()}}
+    names = {**index["external"], **{code: course["name"] for code, course in index["courses"].items()}, **CATALOG_NAMES}
     bsc, msc = program_courses(args.coursesearch, BSC), program_courses(args.coursesearch, MSC)
     sets = {key: members for key, members in group_sets(sessions).items()
             if key[0][:8] not in EXCLUDED and (key[0][:8] in bsc | msc or key[0][:4] in ("0321", "0366"))}
@@ -224,7 +303,7 @@ def main():
     for line, row in rows.items():
         row_course.setdefault(line, name_course.get(row[0]))
 
-    covered, strays, added = set(), [], collections.defaultdict(list)
+    covered, strays, added = set(), [], []
     for key, members in sets.items():
         for line, deliveries in resolved.items():
             if len({recording.get(d) for d in deliveries} & recordings[key]) * 2 >= len(recordings[key]):
@@ -259,46 +338,28 @@ def main():
         if len(members) < PARTIAL:
             notes.append("חלקי")
         course = code[:8]
-        name = next((row[0] for line, row in rows.items() if row_course[line] == course),
-                    (names.get(course) or f"קורס {course}").strip())
-        cell = f"| {' '.join(name.split())} | {people} | {years_of(semester, members)} | [צפייה]({link(query)}) | — | {', '.join(notes) or '—'} |"
-        added[course].append((recitation, cell))
+        name = next((row[0] for line, row in rows.items() if row_course[line] == course), names.get(course, f"קורס {course}"))
+        added.append((course, [" ".join(name.split()), people, years_of(semester, members), f"[צפייה]({link(query)})", "—",
+                               ", ".join(notes) or "—"]))
 
-    # Insert after the course's last row, or at the end of its section for a new course.
-    new_lines = list(lines)
-    last_of = {}
-    for line in sorted(rows):
-        if row_course[line]:
-            last_of[row_course[line]] = line
-    inserts, new_courses = collections.defaultdict(list), collections.defaultdict(list)
-    for course, cells in added.items():
-        cells = [cell for _, cell in sorted(cells, key=lambda item: item[0])]
-        if course in last_of:
-            inserts[last_of[course]] += cells
-        else:
-            new_courses[section_of(course, bsc, msc)].append((course, cells))
-    created = []
-    for key, title in SECTIONS.items():
-        if not new_courses[key]:
-            continue
-        cells = [cell for _, group in sorted(new_courses[key]) for cell in group]
-        start = next((i for i, line in enumerate(lines) if line == f"## {title}"), None)
-        if start is None:
-            anchor = next(i for i, line in enumerate(lines) if line.startswith("## **"))
-            group = sum(line.startswith('<a id="group-') for line in lines) + len(created) + 1
-            created.append(key)
-            inserts[anchor - 1] += ["", f'<a id="group-{group}"></a>', "", f"## {title}", "", *HEADER, *cells, ""]
-        else:
-            end = start + 2
-            while not lines[end + 1].startswith("| ") or end < start + 2:
-                end += 1
-            while end + 1 < len(lines) and lines[end + 1].startswith("| "):
-                end += 1
-            inserts[end] += cells
-    for line in sorted(inserts, reverse=True):
-        new_lines[line + 1:line + 1] = inserts[line]
+    records = []
+    section = None
+    for number, line in enumerate(lines):
+        title = line[3:].strip() if line.startswith("## ") else None
+        section = next((key for key, value in SECTIONS.items() if value == title), section)
+        if number in rows:
+            cells = [cell.strip() for cell in line.strip().strip("|").split(" | ")]
+            course = row_course[number]
+            records.append((section_of(course, bsc, msc) if course else section, course, cells))
+    records += [(section_of(course, bsc, msc), course, cells) for course, cells in added]
+    for _, course, cells in records:
+        if re.fullmatch(r"קורס \d{8}", cells[0]) and course in names:
+            cells[0] = " ".join(names[course].split())
+        for old, new in LECTURER_ALIASES.items():
+            cells[1] = re.sub(rf"{old}(?!\s*גולן)", new, cells[1])
+    new_lines = rebuild(lines, records, args.coursesearch)
 
-    print(f"{len(sets)} sets; {len(covered)} already in the README; {sum(map(len, added.values()))} rows added; "
+    print(f"{len(sets)} sets; {len(covered)} already in the README; {len(added)} rows added; "
           f"{len(strays)} stray sets skipped: {sorted((k[0], k[1]) for k in strays)}")
     print("Courses without a catalog name:", sorted({k[0][:8] for k in sets if k[0][:8] not in names}))
     if not args.dry_run:
