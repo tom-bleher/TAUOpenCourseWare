@@ -41,6 +41,8 @@ PARTIAL = 8
 # README courses with no Open2019 session to infer the course number from.
 COURSE_OF_ROW = {
     "ממפיס 1": "03211838",
+    'חדו"א 1א': "03661101",
+    "לוגיקה": "03662194",
     "פיזיקה סטטיסטית": "03212111",
     "תרמודינמיקה ומצבי צבירה": "03211104",
     "מבוא למצב מוצק": "03213103",
@@ -227,7 +229,7 @@ def rebuild(lines, records, coursesearch):
         for key, course, cells in records:
             if key == section:
                 place = places.get(course, (99, ELSEWHERE))
-                recitation = "תרגול" in cells[5]
+                recitation = "תרגול" in cells[5].split(", ")
                 year = max(map(int, re.findall(r"\d{4}", cells[2])))
                 tables[place[:2]].append((place[2:] or (course or "",), course or "", recitation, -year, cells))
         body += [f'<a id="group-{group}"></a>', "", f"## {title}", ""]
