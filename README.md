@@ -33,6 +33,7 @@
 
 #### תורת ההצגות:
 - [דוד סודרי (2012)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366311701%22&sortColumn=0&sortAscending=true&view=1)
+  - [רשימות הרצאה (PDF)](assets/representations/representations.pdf)
 
 #### קומבינטוריקה בסיסית:
 - [אסף שפירא (2020)](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366303601%22&sortColumn=0&sortAscending=true&maxResults=150)
