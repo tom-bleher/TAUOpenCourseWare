@@ -34,7 +34,8 @@ CACHE = README.with_name("panopto_sessions.jsonl")
 # Single-major and master's programs, whose courses all belong in the mapping.
 BSC = 8366, 8371, 8359, 8650, 7606, 7605, 8360
 MSC = 2238, 1890, 1712
-EXCLUDED = {"03005000"}  # lab safety briefing, not a course
+# Lab courses and the lab safety briefing: their recordings are no use without the lab.
+EXCLUDED = {"03005000", "03211111", "03212830"}
 MIN_SESSIONS = 3  # below this a set is a stray recording, not a course
 PARTIAL = 8
 
@@ -58,7 +59,6 @@ CATALOG_NAMES = {
     "03662132": "תורת החבורות",
     "03682161": "פרויקט תוכנה",
     "03211804": "מבוא לפיזיקה מודרנית",
-    "03212830": "אלקטרוניקה",
     "03213153": "מבוא לפיזיקה חישובית",
     "03214116": "פיזיקה קוונטית 2",
     "03214117": "אלקטרומגנטיות מתקדמת",

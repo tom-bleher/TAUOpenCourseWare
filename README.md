@@ -87,7 +87,6 @@
 
 | קורס | מרצה | שנה | הקלטות | רשימות | הערות |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| מעבדה בפיזיקה א 1 | — | 2013 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111102%2020121%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
 | קלאסית 1 | אהוד נקר | 2013 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%2020131%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
 | קלאסית 1 | יורם דגן | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%99%D7%95%D7%A8%D7%9D%20%D7%93%D7%92%D7%9F%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
 | קלאסית 1 | יורם דגן | 2006 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321111801%2020071%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
@@ -203,7 +202,6 @@
 | ---: | ---: | ---: | ---: | ---: | ---: |
 | מבוא לפיזיקה מודרנית | אבנר סופר | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321180401%2020102%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 | מבוא לפיזיקה מודרנית | אבנר סופר | 2010, 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321180401%2020092%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
-| אלקטרוניקה | אברהם קציר | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321283001%2020092%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 | מצב מוצק ב' | דוד אנדלמן | 2007 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321311301%2020072%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול |
 | מבוא לפיזיקה חישובית | מארק קרלינר | 2014 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321315301%2020132%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 | מבוא לכימיה פיזיקלית לפיזיקאים | יורם זלצר | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321381101%2020182%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
