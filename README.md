@@ -349,6 +349,10 @@
 ## **כלים שימושיים**
 - [התקנת LyX בעברית](https://github.com/tom-bleher/lyx-he)
 - [עץ התואר](https://tom-bleher.github.io/Coursesearch/course_graph.html)
+## **תמיכה בפרויקט**
+
+[☕ Buy Me a Coffee](https://buymeacoffee.com/tombleher)
+
 ## **יצירת קשר**
 - טום בלכר: tombleher@tauex.tau.ac.il
 - אילאי וישנבסקי שלוש: ilayw1@mail.tau.ac.il
