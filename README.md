@@ -2,85 +2,6 @@
 
 <a id="group-1"></a>
 
-## מתמטיקה - תואר ראשון
-
-### סמסטר 1
-
-| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| חדו"א 1א | יעקוב יעקובוב | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22be5385c0-dc02-43d8-a307-ac5800802eef%22&maxResults=150) | — | זום |
-| לינארית 1א | דוד גינסבורג | 2021 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b31502b5-963f-4e9b-b575-adb901337e4c%22&maxResults=150) | — | זום |
-| לינארית 1א | דוד גינסבורג | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%92%D7%99%D7%A0%D7%A1%D7%91%D7%95%D7%A8%D7%92%20%D7%94%D7%95%D7%99%D7%93%D7%90%D7%95%202019%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
-| לינארית 1א | דוד גינסבורג | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111101%2020101%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-
-### סמסטר 2
-
-| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| חדו"א 2 | לירן רותם | 2014 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366110211%2020141%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| חדו"א 2 | שירי ארטשטיין | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366110203%22&sortColumn=0&sortAscending=true) | — | שימו לב: פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש למבוא לחדו"א 3, ואילו בגרסה העכשווית של הקורס פרק זה מוקדש למבוא למרחבים מטריים. |
-| לינארית 2א | יולי אידלמן | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111206%2020192%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
-| לינארית 2א | דוד גינסבורג | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111201%22&sortColumn=3&sortAscending=false) | — | — |
-| לינארית 2א | לאוניד פולטרוביץ | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%20%D7%A4%D7%95%D7%9C%D7%98%D7%A8%D7%95%D7%91%D7%99%D7%A5%22&sortColumn=0&sortAscending=true) | — | — |
-| מבוא לקומבינטוריקה ותורת הגרפים | נוגה אלון | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112301%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
-
-### סמסטר 3
-
-| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| משוואות דיפרנציאליות רגילות | סטיבן שוחט | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%A1%D7%98%D7%99%D7%91%D7%9F%20%D7%A9%D7%95%D7%97%D7%98%22&sortColumn=0&sortAscending=true&maxResults=50) | — | — |
-| מרוכבות | פאול בירן | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366212301%22&sortColumn=3&sortAscending=false) | — | — |
-| מבוא להסתברות | רון פלד | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366201005%22&sortColumn=3&sortAscending=false) | — | — |
-| חדו"א 3 | לב בוחובסקי | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%2020151%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
-| חדו"א 3 | בוריס צירלסון | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214104%2020152%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| חדו"א 3 | בועז קלרטג | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%95%D7%A2%D7%96%20%D7%A7%D7%9C%D7%A8%D7%98%D7%92%22&sortColumn=3&sortAscending=false&maxResults=50) | — | — |
-
-### סמסטר 4
-
-| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| אנליזה נומרית | חיים אברון | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210501%2020161%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| אנליזה נומרית | דוד לוין | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210504%2020102%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-
-### שנים ב'-ג' - חובה
-
-| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| תורת החבורות | מרק שוסטרמן | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213203%2020162%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| תורת החבורות | דוד סודרי | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213201%2020101%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-
-### קורסי בחירה
-
-| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| ממשיות | בועז קלרטג | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366210604%22&sortColumn=0&sortAscending=true&view=1) | — | — |
-| ממשיות | אלדו לזר | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210601%2020111%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| טופולוגיה | יפים גלוסקין | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366211504%2020192%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| טופולוגיה | אלדו לזר | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366211501%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
-| תורת המספרים | ברק ווייס | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366214001%20%D7%91%D7%A8%D7%A7%20%D7%95%D7%95%D7%99%D7%99%D7%A1%22&sortColumn=0&sortAscending=true&view=1) | — | — |
-| תורת המספרים | דוד סודרי | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366214001%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%A1%D7%95%D7%93%D7%A8%D7%99%22&sortColumn=0&sortAscending=true&view=1) | — | חלקי |
-| גיאומטריה דיפרנציאלית | אלכסיי אנטין | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fabba683-2e58-4f55-9b59-ac590117b749%22&view=2&page=0&maxResults=50) | — | — |
-| תורת גלואה | דן הרן | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213301%2020192%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
-| תורת גלואה | דוד סודרי | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%A1%D7%95%D7%93%D7%A8%D7%99%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
-| קומבינטוריקה בסיסית | אסף שפירא | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366303601%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
-| תורת ההצגות | דוד סודרי | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366311701%22&sortColumn=0&sortAscending=true&view=1) | [PDF](assets/representations/lecture-notes.pdf) | — |
-| תורת הגרפים | נוגה אלון | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366326701%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
-| יסודות באלגברה קומוטטיבית | דוד סודרי | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366329201%22&sortColumn=1&sortAscending=false) | — | — |
-
-### קורסים שאינם בתוכנית הנוכחית
-
-| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
-| ---: | ---: | ---: | ---: | ---: | ---: |
-| פונקציות L | אלכסיי אנטין | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e57e9b94-82bc-4305-955b-ac5c00ff4395%22&view=2&maxResults=50) | — | — |
-| אלגברה לינארית 1ב | אלי להר | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111901%2020171%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| אלגברה לינארית 2ב | אלון ניסן כהן | 2014 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112003%2020132%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול |
-| חשבון דיפרנציאלי ואינטגרלי 1ב | נחשון יע איילי | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112106%2020191%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
-| חשבון דיפרנציאלי ואינטגרלי 1ב | אלי להר | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112101%2020171%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-| חשבון דיפרנציאלי ואינטגרלי 1ג | אלכסנדר ספיבק | 2013 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112401%2020131%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
-
-
-<a id="group-2"></a>
-
 ## פיזיקה - תואר ראשון
 
 ### סמסטר 1
@@ -207,7 +128,7 @@
 | מבוא לכימיה פיזיקלית לפיזיקאים | יורם זלצר | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321381101%2020182%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 
 
-<a id="group-3"></a>
+<a id="group-2"></a>
 
 ## פיזיקה - תואר שני
 
@@ -248,6 +169,85 @@
 | אלקטרומגנטיות מתקדמת | איתי דורון | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321411704%2020072%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול |
 | תורת שדות לחומר מעובה | רוני אילן | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22d5e6ae13-60d3-4671-ac2a-ac4e00d44069%22) | — | זום, חלקי |
 | גלאי קרינה לאנרגיות גבוהות | ארז עציון | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321486001%2020191%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+
+
+<a id="group-3"></a>
+
+## מתמטיקה - תואר ראשון
+
+### סמסטר 1
+
+| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| חדו"א 1א | יעקוב יעקובוב | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22be5385c0-dc02-43d8-a307-ac5800802eef%22&maxResults=150) | — | זום |
+| לינארית 1א | דוד גינסבורג | 2021 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22b31502b5-963f-4e9b-b575-adb901337e4c%22&maxResults=150) | — | זום |
+| לינארית 1א | דוד גינסבורג | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%92%D7%99%D7%A0%D7%A1%D7%91%D7%95%D7%A8%D7%92%20%D7%94%D7%95%D7%99%D7%93%D7%90%D7%95%202019%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
+| לינארית 1א | דוד גינסבורג | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111101%2020101%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+
+### סמסטר 2
+
+| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| חדו"א 2 | לירן רותם | 2014 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366110211%2020141%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| חדו"א 2 | שירי ארטשטיין | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366110203%22&sortColumn=0&sortAscending=true) | — | שימו לב: פרק 3 בקורס הנוכחי שונה מהגרסה המוקלטת — בהקלטות זה מוקדש למבוא לחדו"א 3, ואילו בגרסה העכשווית של הקורס פרק זה מוקדש למבוא למרחבים מטריים. |
+| לינארית 2א | יולי אידלמן | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111206%2020192%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
+| לינארית 2א | דוד גינסבורג | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111201%22&sortColumn=3&sortAscending=false) | — | — |
+| לינארית 2א | לאוניד פולטרוביץ | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%22%D7%9C%D7%90%D7%95%D7%A0%D7%99%D7%93%20%D7%A4%D7%95%D7%9C%D7%98%D7%A8%D7%95%D7%91%D7%99%D7%A5%22&sortColumn=0&sortAscending=true) | — | — |
+| מבוא לקומבינטוריקה ותורת הגרפים | נוגה אלון | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112301%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
+
+### סמסטר 3
+
+| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| משוואות דיפרנציאליות רגילות | סטיבן שוחט | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%A1%D7%98%D7%99%D7%91%D7%9F%20%D7%A9%D7%95%D7%97%D7%98%22&sortColumn=0&sortAscending=true&maxResults=50) | — | — |
+| מרוכבות | פאול בירן | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366212301%22&sortColumn=3&sortAscending=false) | — | — |
+| מבוא להסתברות | רון פלד | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366201005%22&sortColumn=3&sortAscending=false) | — | — |
+| חדו"א 3 | לב בוחובסקי | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%2020151%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
+| חדו"א 3 | בוריס צירלסון | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214104%2020152%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| חדו"א 3 | בועז קלרטג | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366214101%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%91%D7%95%D7%A2%D7%96%20%D7%A7%D7%9C%D7%A8%D7%98%D7%92%22&sortColumn=3&sortAscending=false&maxResults=50) | — | — |
+
+### סמסטר 4
+
+| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| אנליזה נומרית | חיים אברון | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210501%2020161%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| אנליזה נומרית | דוד לוין | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210504%2020102%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+
+### שנים ב'-ג' - חובה
+
+| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| תורת החבורות | מרק שוסטרמן | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213203%2020162%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| תורת החבורות | דוד סודרי | 2010 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213201%2020101%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+
+### קורסי בחירה
+
+| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| ממשיות | בועז קלרטג | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366210604%22&sortColumn=0&sortAscending=true&view=1) | — | — |
+| ממשיות | אלדו לזר | 2011 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366210601%2020111%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| טופולוגיה | יפים גלוסקין | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366211504%2020192%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| טופולוגיה | אלדו לזר | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366211501%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
+| תורת המספרים | ברק ווייס | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366214001%20%D7%91%D7%A8%D7%A7%20%D7%95%D7%95%D7%99%D7%99%D7%A1%22&sortColumn=0&sortAscending=true&view=1) | — | — |
+| תורת המספרים | דוד סודרי | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366214001%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%A1%D7%95%D7%93%D7%A8%D7%99%22&sortColumn=0&sortAscending=true&view=1) | — | חלקי |
+| גיאומטריה דיפרנציאלית | אלכסיי אנטין | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22fabba683-2e58-4f55-9b59-ac590117b749%22&view=2&page=0&maxResults=50) | — | — |
+| תורת גלואה | דן הרן | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213301%2020192%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
+| תורת גלואה | דוד סודרי | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366213301%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%93%D7%95%D7%93%20%D7%A1%D7%95%D7%93%D7%A8%D7%99%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
+| קומבינטוריקה בסיסית | אסף שפירא | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366303601%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
+| תורת ההצגות | דוד סודרי | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220366311701%22&sortColumn=0&sortAscending=true&view=1) | [PDF](assets/representations/lecture-notes.pdf) | — |
+| תורת הגרפים | נוגה אלון | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366326701%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
+| יסודות באלגברה קומוטטיבית | דוד סודרי | 2016 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366329201%22&sortColumn=1&sortAscending=false) | — | — |
+
+### קורסים שאינם בתוכנית הנוכחית
+
+| קורס | מרצה | שנה | הקלטות | רשימות | הערות |
+| ---: | ---: | ---: | ---: | ---: | ---: |
+| פונקציות L | אלכסיי אנטין | 2020 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e57e9b94-82bc-4305-955b-ac5c00ff4395%22&view=2&maxResults=50) | — | — |
+| אלגברה לינארית 1ב | אלי להר | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366111901%2020171%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| אלגברה לינארית 2ב | אלון ניסן כהן | 2014 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112003%2020132%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול |
+| חשבון דיפרנציאלי ואינטגרלי 1ב | נחשון יע איילי | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112106%2020191%22&sortColumn=0&sortAscending=true&maxResults=250) | — | חלקי |
+| חשבון דיפרנציאלי ואינטגרלי 1ב | אלי להר | 2017 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112101%2020171%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
+| חשבון דיפרנציאלי ואינטגרלי 1ג | אלכסנדר ספיבק | 2013 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220366112401%2020131%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 
 
 <a id="group-4"></a>
