@@ -67,7 +67,7 @@
 | קורס | מרצה | שנה | הקלטות | רשימות | הערות |
 | ---: | ---: | ---: | ---: | ---: | ---: |
 | קוונטים 1 | רון ליפשיץ | 2013 | [צפייה](https://www.youtube.com/watch?v=1dFg0xQHr24&list=PLZkJ6lmZSF_zSpVosoINUOfePANtAUK3E&index=1) | — | — |
-| קוונטים 1 | רון ליפשיץ | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%220aab4ae2-534f-458a-8f4a-af5a00c05b52%22) | — | — |
+| קוונטים 1 | רון ליפשיץ | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%220aab4ae2-534f-458a-8f4a-af5a00c05b52%22) | [PDF](assets/quantum-1/lecture-notes.pdf) | — |
 | קוונטים 1 | בני רזניק | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210303%20%D7%93%5C%22%D7%A8%20%D7%91%D7%A0%D7%99%20%D7%A8%D7%96%D7%A0%D7%99%D7%A7%20%22&sortColumn=0&sortAscending=true) | — | — |
 | קוונטים 1 | יואב קלינברגר | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210302%2020081%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 | קוונטים 1 | שמואל מרקוביץ | 2009 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321210305%2020082%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול |
@@ -95,7 +95,7 @@
 | מבוא למצב מוצק | יורם דגן | 2019 | [צפייה](https://www.youtube.com/playlist?list=PLZkJ6lmZSF_yW83JSl7GJzHVRLZvyDMw-) | — | — |
 | מבוא למצב מוצק | אליהו אייזנברג | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310301%2020081%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 | מבוא למצב מוצק | דן בן יעקב | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310302%2020081%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול |
-| אלקטרומגנטיות אנליטית | רון ליפשיץ | 2024 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22d304e2c2-19b6-49f8-8357-b383010fb722%22&maxResults=150) | — | זום |
+| אלקטרומגנטיות אנליטית | רון ליפשיץ | 2024 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22d304e2c2-19b6-49f8-8357-b383010fb722%22&maxResults=150) | [PDF](assets/analytical-electromagnetism/lecture-notes.pdf) | זום |
 | אלקטרומגנטיות אנליטית | בנימין סבטיצקי | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&maxResults=250&query=%220321310901%20%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%20%D7%A1%D7%91%D7%98%D7%99%D7%A6%D7%A7%D7%99%22&sortColumn=0&sortAscending=true&view=1) | — | — |
 | אלקטרומגנטיות אנליטית | עמיר לוינסון | 2005, 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310901%2020081%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 | אלקטרומגנטיות אנליטית | אורי קול | 2012 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321310902%2020121%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול |
@@ -136,7 +136,7 @@
 
 | קורס | מרצה | שנה | הקלטות | רשימות | הערות |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| קוונטית מתקדמת | רון ליפשיץ | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%225c5ede73-d94a-4500-bb44-af5a00be0a41%22) | — | — |
+| קוונטית מתקדמת | רון ליפשיץ | 2019 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%225c5ede73-d94a-4500-bb44-af5a00be0a41%22) | [PDF](assets/advanced-quantum/lecture-notes.pdf) | — |
 | קוונטית מתקדמת | משה גולדשטיין | 2015 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321411501%2020151%22&sortColumn=0&sortAscending=true&maxResults=250) | — | — |
 | קוונטית מתקדמת | ויקטור פלורוב | 2008 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321411501%20%D7%A4%D7%A8%D7%95%D7%A4%20%D7%95%D7%99%D7%A7%D7%98%D7%95%D7%A8%20%D7%A4%D7%9C%D7%95%D7%A8%D7%95%D7%91%22&sortColumn=0&sortAscending=true&maxResults=150) | — | — |
 | קוונטית מתקדמת | מוחמד ערו | 2015 | [צפייה](https://tau.cloud.panopto.eu/Panopto/Pages/Sessions/List.aspx#folderID=%22e68c3124-6817-4380-8492-ae9a00abb772%22&query=%220321411502%2020151%22&sortColumn=0&sortAscending=true&maxResults=250) | — | תרגול, חלקי |
